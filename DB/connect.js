@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
 function connect() {
-  return mongoose.connect(process.env.MONGO_URL);
+  return mongoose.connect("mongodb+srv://iamdk353:iamdk353@blog.alaokrb.mongodb.net/");
 }
 export default connect;
